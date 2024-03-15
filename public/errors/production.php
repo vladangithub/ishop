@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>Произошла ошибка</h1>
+<h1>Production</h1>
 <p><a href="<?=PATH;?>">Go back to Home</a></p>
 
 </body>

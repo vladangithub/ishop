@@ -9,5 +9,6 @@ require_once dirname(__DIR__) . '/config/init.php';
 
 new \wfm\App();
 
-//throw new Exception('Возникла ошибочка!', 404);
+throw new Exception('Возникла ошибочка!', 404);
 
+//echo $test;

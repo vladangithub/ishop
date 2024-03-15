@@ -45,7 +45,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             color:#aaa;
         }
         .footer a{
-            color:#666;
+            color:#678;
             text-decoration:none;
         }
 
@@ -54,7 +54,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <div class="wrap">
     <div class="logo">
-        <img src="/public/errors/image/404.png" alt=""  />
+        <img src="../errors/image/404.png" alt=""  />
+
         <p><a href="<?=PATH;?>">Go back to Home</a></p>
     </div>
 </div>
