@@ -9,7 +9,5 @@ require_once dirname(__DIR__) . '/config/init.php';
 
 new \wfm\App();
 
-//echo \wfm\App::$app->getProperty('pagination');
-//\wfm\App::$app->setProperty('test', 'TEST');
-//
-//var_dump(\wfm\App::$app->getProperties());
+//throw new Exception('Возникла ошибочка!', 404);
+

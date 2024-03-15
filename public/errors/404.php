@@ -5,11 +5,11 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Free 404 White for Iphone, Android & Smartphone Mobile Website Template | Home :: w3layouts</title>
-    <style type="text/css">
+    <style>
         body{
             font-family:Arial, Helvetica, sans-serif;
         }
@@ -54,7 +54,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <div class="wrap">
     <div class="logo">
-        <img src="../errors/images/404.png" alt="404. Smoke break"  />
+        <img src="/public/errors/image/404.png" alt=""  />
         <p><a href="<?=PATH;?>">Go back to Home</a></p>
     </div>
 </div>

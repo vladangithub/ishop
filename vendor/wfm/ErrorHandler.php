@@ -7,6 +7,7 @@ class ErrorHandler
 
     public function __construct()
     {
+        // https://habr.com/ru/post/161483/
         if (DEBUG) {
             error_reporting(-1);
         } else {
@@ -24,7 +25,7 @@ class ErrorHandler
         $this->displayError($errno, $errstr, $errfile, $errline);
     }
 
-    public function fatalErrorHendler()
+    public function fatalErrorHandler()
     {
         $error = error_get_last();
         if (!empty($error) && $error['type'] & (E_ERROR | E_PARSE | E_COMPILE_ERROR | E_CORE_ERROR)) {
