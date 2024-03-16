@@ -1,9 +1,3 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -60,7 +54,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <div class="footer">
-    Design by - <a href="http://w3layouts.com">W3Layouts</a>
+    Questions? - <a href="https://github.com/vladangithub">vladan</a>
 </div>
 
 </body>
