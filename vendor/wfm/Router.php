@@ -11,6 +11,7 @@ class Router
     public static function add($regexp, $route = [])
     {
         self::$routes[$regexp] = $route;
+
     }
 
     public static function getRoutes(): array
