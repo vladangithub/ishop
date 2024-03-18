@@ -26,10 +26,60 @@ class Router
 
     public static function dispatch($url)
     {
-        var_dump($url);
+        if (self::matchRoute($url))
+        {
+            echo 'OK';
+        } else {
+            echo 'No';
+        }
+    }
+
+    public static function matchRoute($url) : bool
+    {
+        foreach (self::$routes as $pattern => $route) {
+            if (preg_match("#{$pattern}#", $url, $matches)) {
+                debug($matches);
+                foreach ($matches as $k => $v) {
+                    if (is_string($k)) {
+                        $route[$k] = $v;
+                    }
+                }
+                debug($route);
+                return true;
+            }
+        }
+        return false;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

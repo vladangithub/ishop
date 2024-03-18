@@ -50,3 +50,7 @@
 =================
 [2024-03-16 16:29:28] Текст ошибки: Возникла ошибочка! | Файл: D:\543\OSPanel\domains\ishop\public\index.php | Строка: 12
 =================
+[2024-03-18 21:43:51] Текст ошибки: preg_match() expects at least 2 arguments, 1 given | Файл: D:\543\OSPanel\domains\ishop\vendor\wfm\Router.php | Строка: 40
+=================
+[2024-03-18 21:49:13] Текст ошибки: preg_match() expects at least 2 arguments, 1 given | Файл: D:\543\OSPanel\domains\ishop\vendor\wfm\Router.php | Строка: 40
+=================
