@@ -7,7 +7,7 @@ Router::add('^admin/(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)/?$', ['admin_pr
 
 
 
-Router::add('^$', ['controller' => 'Main', 'actions' => 'index']);
+Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
 
 
 Router::add('^(?P<controller>[a-z-]+)/(?P<action>[a-z-]+)$');

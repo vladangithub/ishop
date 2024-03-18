@@ -38,11 +38,18 @@ class Router
     {
         foreach (self::$routes as $pattern => $route) {
             if (preg_match("#{$pattern}#", $url, $matches)) {
-                debug($matches);
                 foreach ($matches as $k => $v) {
                     if (is_string($k)) {
                         $route[$k] = $v;
                     }
+                }
+                if (empty($route['action'])) {
+                    $route['action'] = 'index';
+                }
+                if (!isset($route['admin_prefix'])) {
+                    $route['admin_prefix'] = '';
+                } else {
+                    $route['admin_prefix'] = '\\';
                 }
                 debug($route);
                 return true;
@@ -50,6 +57,15 @@ class Router
         }
         return false;
     }
+
+    //new-product NewProduct
+
+//CamelCase
+    protected static function upperCamelCase($name): string
+    {
+        $name = str_replace('-', ' ', $name);
+    }
+
 
 }
 
